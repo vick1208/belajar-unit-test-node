@@ -7,10 +7,11 @@
     "test": "jest"
   },
   "jest": {
+    "maxConcurrency":1,
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
     },
-    "verbose": false,
+    "verbose": true,
     "collectCoverage":true,
     "coverageThreshold":{
       "global":{
